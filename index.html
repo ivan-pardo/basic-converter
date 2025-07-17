@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PRACTICE</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     <h2>Seleccione la Unidad a Convertir</h2>
     <form id="form-convert" action="">
       <label for="convert">
-        Seleccione:
+        Seleccione:&nbsp;
         <select id="convert">
           <option>-unidad-</option>
           <option>Milimetros</option>
@@ -23,11 +24,13 @@
         </select>
       </label>
       <label for="number"><input type="number"></label>
-      <label for="converted-number">
-        <option value="">-unidad-</option>
-        <option value="">Milimetro</option>
-        <option value="">Centimetros</option>
-        <option value="">Kilometro</option>
+      <label for="converted-number">&nbsp;A:&nbsp; 
+        <select name="" id="converted-number"> 
+          <option value="">-unidad-</option>
+          <option value="">Milimetro</option>
+          <option value="">Centimetros</option>
+          <option value="">Kilometro</option>
+        </select>
       </label>
       <p id="converted-number"></p>
 
